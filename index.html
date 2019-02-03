@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>jQuery Progress Bar</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+<div class="row">
+    <div class="column text-center">
+    	<div class="main-label text-left"><h2>My Skill</h2></div>
+      	<div class="progressbar">
+        	<div class="long-progress" data-width="90">
+          		<div class="title-label">HTML + CSS</div>
+          		<div class="title-label-percent"></div>
+        	</div>
+      	</div>
+		<div class="progressbar">
+        	<div class="long-progress" data-width="30">
+          		<div class="title-label">PHP</div>
+          		<div class="title-label-percent"></div>
+        	</div>
+		</div>
+		<div class="progressbar">
+			<div class="long-progress" data-width="40">
+				<div class="title-label">MySQL</div>
+				<div class="title-label-percent"></div>
+			</div>
+		</div>
+		<div class="progressbar">
+			<div class="long-progress" data-width="70">
+				<div class="title-label">JavaScript</div>
+				<div class="title-label-percent"></div>
+        	</div>
+		</div>
+		<div class="progressbar">
+			<div class="long-progress" data-width="50">
+				<div class="title-label">UX/UI Design</div>
+				<div class="title-label-percent"></div>
+        	</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('.progressbar').initprogress({
+      speed:1000,
+      color_type:'',
+      padding: '',
+      interactive:true
+     });
+</script>
+</body>
+</html>
