@@ -1,7 +1,5 @@
 ## About
-```bash
 This very simple animated progress bar built with [jQuery](https://jquery.org/).
-```
 
 ## Installation
 ```javascript
