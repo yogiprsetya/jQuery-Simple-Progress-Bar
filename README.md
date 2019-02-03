@@ -1,5 +1,7 @@
 ## About
-This very simple animated progress bar built with jQuery.
+```bash
+This very simple animated progress bar built with [jQuery](https://jquery.org/).
+```
 
 ## Installation
 ```javascript
@@ -10,3 +12,5 @@ This very simple animated progress bar built with jQuery.
 });
 </script>
 ```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
