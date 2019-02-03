@@ -10,5 +10,8 @@ This very simple animated progress bar built with [jQuery](https://jquery.org/).
 });
 </script>
 ```
+## Demo
+[Click Demo](https://yogiprsetya.github.io/jQuery-Simple-Progress-Bar/)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
